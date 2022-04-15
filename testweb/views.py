@@ -6,4 +6,3 @@ class Main(APIView):
     def get(self,request):
         return render(request,"testweb/main.html")
 
-
